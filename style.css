@@ -1,0 +1,86 @@
+* {
+  margin: 0 0 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+overflow: hidden;
+}
+
+.logo {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./imge/271681.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: rgb(239, 186, 39);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.slide {
+  width: 320px;
+  height: 100%;
+  margin: -88px 0 auto 0;
+  background: rgba(90, 89, 89, 0.8);
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 27px;
+}
+i {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h3 {
+  font-family: monospace;
+  font-size: 1.5em;
+  margin: 10px;
+}
+hr {
+  color: chocolate;
+}
+.p2 {
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+  font-size: 1.1em;
+}
+
